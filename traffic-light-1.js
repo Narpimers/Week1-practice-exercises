@@ -16,7 +16,7 @@ while (rotations < 2) {
     trafficLight.state = trafficLight.state.replace('green', 'orange')
    } else if (trafficLight.state==="orange") {
     trafficLight.state = trafficLight.state.replace('orange', 'red')
-   }  else if (trafficLight.state==="red") {
+   }  else  (trafficLight.state==="red") {
     trafficLight.state = trafficLight.state.replace('red', 'green')
     rotations++
    };
